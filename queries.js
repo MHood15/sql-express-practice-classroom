@@ -61,7 +61,7 @@ const createStudent = (req, res) => {
       throw error
     }
     res.status(201).send(`User successfully added!`)
-  })
+  })  
 }
 
 //Updates a student by ID
